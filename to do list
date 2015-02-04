@@ -1,36 +1,38 @@
-1) установить Oracle VM VirtualBox (виртуальная машина)
-https://www.virtualbox.org/
-2) скачать Ubuntu (ОС Linux)
-http://www.ubuntu.com/download/desktop
-3)загрузить в виртуальную машину Ubuntu
+1. установить Oracle VM VirtualBox (виртуальная машина)
+[https://www.virtualbox.org/]
+2. скачать Ubuntu (ОС Linux)
+[http://www.ubuntu.com/download/desktop]
+3. загрузить в виртуальную машину Ubuntu
 
-работа в ubuntu:
-1)sudo apt-get update
-2)sudo apt-get install --reinstall zlibc zlib1g zlib1g-dev (лишнее шаманство)
-3)в ubuntu предустановлен python
+
+#работа в ubuntu:
+1. `sudo apt-get update`
+2. `sudo apt-get install --reinstall zlibc zlib1g zlib1g-dev` (лишнее шаманство)
+3. в ubuntu предустановлен python
 ---- пакеты
-4)sudo apt-get install python python-scipy python-numpy python-matplotlib python-qt4 python-mysqldb python-pip python-psycopg2 python-dev gfortran python-pywt python-sqlalchemy python-migrate python-tables python-joblib  python-guidata python-sklearn python-pandas python-xlwt python-joblib cython
-5)sudo pip install quantities neo pyqtgraph
----- гит с программой
-6)sudo apt-get install git
-7)git clone https://git@github.com/OpenElectrophy/OpenElectrophy.git
-8)cd ~/OpenElectrophy
-9)sudo python setup.py install
----- [ Запуск ]
-9.1) cd ~/OpenElectrophy
-9.2) sudo python startOpenElectrophy.py
+4. `sudo apt-get install python python-scipy python-numpy python-matplotlib python-qt4 python-mysqldb python-pip python-psycopg2 python-dev gfortran python-pywt python-sqlalchemy python-migrate python-tables python-joblib  python-guidata python-sklearn python-pandas python-xlwt python-joblib cython`
+5. `sudo pip install quantities neo pyqtgraph`
++ --- гит с программой
+6. `sudo apt-get install git`
+7. `git clone https://git@github.com/OpenElectrophy/OpenElectrophy.git`
+8. `cd ~/OpenElectrophy`
+9. `sudo python setup.py install`
+**[Запуск]**
+*a)* `cd ~/OpenElectrophy`
+*b)* `sudo python startOpenElectrophy.py`
 
----- IDE PyCharm
-10)sudo add-apt-repository ppa:webupd8team/java
-11)sudo apt-get update    
-12)sudo apt-get install oracle-java8-installer  
-13)wget -q -O - http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
-14)sudo sh -c 'echo "deb http://archive.getdeb.net/ubuntu $(lsb_release -sc)-getdeb apps" >> /etc/apt/sources.list.d/getdeb.list'
-15)sudo apt-get update
-16)sudo apt-get install pycharm
---- открыть с root правами
-17)sudo pycharm
-18)выбрать интерпритатор pythom версии 2.7.любой
-19)открыть home/OpenElectrophy
-20)запустить startOpenElectrophy.py
+#IDE PyCharm
+10. `sudo add-apt-repository ppa:webupd8team/java`
+11. `sudo apt-get update`
+12. `sudo apt-get install oracle-java8-installer`
+13. `wget -q -O - http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -`
+14. `sudo sh -c 'echo "deb http://archive.getdeb.net/ubuntu $(lsb_release -sc)-getdeb apps" >> /etc/apt/sources.list.d/getdeb.list'`
+15. `sudo apt-get update`
+16. `sudo apt-get install pycharm`
++ (открыть с root правами)
+17. `sudo pycharm`
+18. выбрать интерпритатор pythom версии 2.7.любой
+19. открыть home/OpenElectrophy
+20. запустить startOpenElectrophy.py
+
 
